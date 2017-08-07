@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class XXXGroupInfo {
 
-    private ArrayList<XXXChildInfo> childList = new ArrayList<XXXChildInfo>();
+//    private ArrayList<XXXChildInfo> childList = new ArrayList<XXXChildInfo>();
 
     private String nameofPair;
     private String directionOfPair;
@@ -16,13 +16,77 @@ public class XXXGroupInfo {
     private String openClosePrice;
     private double rightValue;
 
-    public ArrayList<XXXChildInfo> getChildList() {
-        return childList;
+    private double priceOpen;
+    private double takeProfit;
+    private double stopLoss;
+    private double margin;
+    private double param1;
+    private double param2;
+    private double param3;
+
+    public double getPriceOpen() {
+        return priceOpen;
     }
 
-    public void setChildList(ArrayList<XXXChildInfo> childList) {
-        this.childList = childList;
+    public void setPriceOpen(double priceOpen) {
+        this.priceOpen = priceOpen;
     }
+
+    public double getTakeProfit() {
+        return takeProfit;
+    }
+
+    public void setTakeProfit(double takeProfit) {
+        this.takeProfit = takeProfit;
+    }
+
+    public double getStopLoss() {
+        return stopLoss;
+    }
+
+    public void setStopLoss(double stopLoss) {
+        this.stopLoss = stopLoss;
+    }
+
+    public double getMargin() {
+        return margin;
+    }
+
+    public void setMargin(int margin) {
+        this.margin = margin;
+    }
+
+    public double getParam1() {
+        return param1;
+    }
+
+    public void setParam1(double param1) {
+        this.param1 = param1;
+    }
+
+    public double getParam2() {
+        return param2;
+    }
+
+    public void setParam2(double param2) {
+        this.param2 = param2;
+    }
+
+    public double getParam3() {
+        return param3;
+    }
+
+    public void setParam3(double param3) {
+        this.param3 = param3;
+    }
+
+//    public ArrayList<XXXChildInfo> getChildList() {
+//        return childList;
+//    }
+//
+//    public void setChildList(ArrayList<XXXChildInfo> childList) {
+//        this.childList = childList;
+//    }
 
     public String getNameofPair() {
         return nameofPair;

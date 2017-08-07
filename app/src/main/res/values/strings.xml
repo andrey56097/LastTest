@@ -5,4 +5,5 @@
         <item>Forex Majors</item>
         <item>Forex Minors</item>
     </string-array>
+    <string name="title_activity_sqllite">SQLLiteActivity</string>
 </resources>
